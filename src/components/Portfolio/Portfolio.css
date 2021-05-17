@@ -1,0 +1,28 @@
+.portfolio {
+    background: #1f2235;
+    color: #fff;
+    width: 100%;
+    height: 110vh;
+    padding: 10vh 0;
+}
+
+.PortfolioBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1vw;
+    padding: 20px 0px;
+}
+
+.pBox img {
+    width: 100%;
+    height: 33vh;
+}
+
+.seeMore {
+    border: 1px solid #ff4a57;
+    background: none;
+    color: #fff;
+    padding: 1vh 2vw;
+    border-radius: 50px;
+    margin-top: 30px;
+}

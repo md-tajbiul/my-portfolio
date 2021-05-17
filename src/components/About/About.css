@@ -1,0 +1,53 @@
+.about {
+    width: 100%;
+    height: 100vh;
+    background: #23263a;
+    padding: 10vh 0;
+    color: #fff;
+}
+
+.aboutInfoRight {
+    margin-top: 10vh;
+}
+
+.aboutInfoBottomLeft {
+    margin-top: -10vh;
+}
+
+.common {
+    width: 33.33333333333333%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.mainHeader {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.mainContent {
+    font-size: 16px;
+}
+
+.commonBorder {
+    background: #ff4a57;
+    height: 3px;
+    width: 100px;
+    margin: 30px auto;
+}
+
+.images {
+    width: 40%;
+    height: 35vh;
+    margin-top: -10vh;
+}
+
+.skillBar:hover {
+    margin-left: 5px;
+    transform: scale(1.1);
+    transition: all 0.5s linear;
+}
+
+.skillBar {
+    opacity: 0.9;
+}

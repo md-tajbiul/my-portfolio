@@ -1,0 +1,40 @@
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.socialUl {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.socialUl a li{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ff4a57;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px 14px;
+    transition: all 0.5s linear;
+}
+
+.socialUl a {
+    color: #fff;
+}
+
+.socialUl li:hover {
+    background: #fff;
+    border: 2px solid transparent;
+    transform: scale(1.2);
+}
+
+.socialUl li:hover .headerIcon {
+    color: #ff4a57;
+}

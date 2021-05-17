@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    background: #1f2235;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+}
+
+.headerSection h1 {
+    font-size: 57px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.headerSection p {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+.bannerImg img{
+    width: 110%;
+}
+.headerButton a:hover {
+    color: #fff;
+    border-color: #fff;
+}
